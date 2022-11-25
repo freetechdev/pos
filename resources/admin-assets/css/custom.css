@@ -1,0 +1,158 @@
+.modal.left .modal-dailog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.modal.left .modal-dialog.modal-sm {
+    max-width: 300px;
+}
+
+.modal.left .modal.content {
+    min-height: 100vh;
+    border: 0;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.modal.right .modal-dialog {
+    top: 0;
+    right: 0;
+    margin-right: 18vh;
+}
+
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+
+a {
+    display: block;
+    margin-right: 5px;
+}
+
+.btn-outline {
+    border-color: #008b8b;
+    color: #008b8b;
+}
+
+.btn-outline:hover {
+    background: #008b8b;
+    color: #fff;
+}
+  #invoice {
+        box-shadow: 0 0 1in -0.25in rgb(0, 0, 0.5);
+        padding: 2mm;
+        margin: 0 auto;
+        width: 60mm;
+        background: #fff;
+    }
+
+    #invoice ::selection {
+        background: #b927b9;
+        color: #fff
+    }
+
+    #invoice ::-moz-selection {
+        background: #410491;
+        color: #fff
+    }
+
+    #invoice h1 {
+        font-size: 1.5em;
+        color: #222
+    }
+
+    #invoice h2 {
+        font-size: 0.6em;
+    }
+
+    #invoice h3 {
+        font-size: 1.2em;
+        font-weight: 300;
+        line-height: 2em;
+    }
+
+    #invoice p {
+        font-size: 0.7em;
+        color: #666;
+        line-height: 1.2em;
+    }
+
+    #invoice #top {
+        min-height: 100px;
+    }
+
+    #invoice #mid {
+        min-height: 80px;
+    }
+
+    #invoice #bot {
+        min-height: 50px;
+        border-bottom: 1px solid #eee;
+    }
+
+
+    #invoice #top .logo {
+        height: 60px;
+        width: 60px;
+        background-image: url() no-repeat;
+        background-size: 60px 60px;
+        border-radius: 50px;
+    }
+
+    #invoice .info {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #invoice .title {
+        float: right;
+    }
+
+    #invoice .title p {
+        text-align: right;
+    }
+
+    #invoice table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    #invoice tabletitle {
+        font-size: 0.5em;
+        color: #eee;
+    }
+
+    #invoice .service {
+        border-bottom: 1px solid #eee
+    }
+
+    #invoice .item {
+        width: 24mm;
+    }
+
+    #invoice .itemtext {
+        font-size: 0.5em;
+    }
+
+    #invoice #legalcopy {
+        margin-top: 5mm;
+        text-align: center;
+    }
+    .serial-number{
+        margin-top: 5mm;
+        margin-bottom: 2mm;
+        text-align: center;
+        font-size: 12px;
+    }
+    .serial{
+        font-size: 10px !important;
+    }
